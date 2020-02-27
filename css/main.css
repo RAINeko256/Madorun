@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+/* Frame 1 */
+.Frame{
+position: relative;
+width: 1789px;
+height: 3606px;
+
+background: #FFFFFF;
+}
+
+
+
+/* Rectangle 4 */
+.floor{
+position: absolute;
+width: 1667px;
+height: 1024px;
+left: 60px;
+top: 723px;
+
+background: #FFFFFF;
+border: 10px solid #000000;
+box-sizing: border-box;
+}
+
+/* Rectangle 5 */
+.OK{
+position: absolute;
+width: 300px;
+height: 300px;
+left: 1044px;
+top: 2206px;
+
+background: #FF4466;
+border-radius: 60px;
+}
+
+/* Polygon 1 */
+#move_up{
+position: absolute;
+width: 300px;
+height: 300px;
+left: 1044px;
+top: 1906px;
+
+background: #1AFDEF;
+}
+
+/* Polygon 2 */
+#move_left{
+position: absolute;
+width: 300px;
+height: 300px;
+left: 744px;
+top: 2509px;
+
+background: #1AFDEF;
+transform: rotate(-90deg);
+}
+
+
+/* Polygon 3 */
+#move_right{
+position: absolute;
+width: 300px;
+height: 300px;
+left: 1644px;
+top: 2209px;
+
+background: #1AFDEF;
+transform: rotate(90deg);
+}
+
+/* Polygon 4 */
+#move_down{
+position: absolute;
+width: 300px;
+height: 300px;
+left: 1344px;
+top: 2809px;
+
+background: #1AFDEF;
+transform: rotate(-180deg);
+}
+
+/* Rectangle 6 */
+#button_top1{
+position: absolute;
+width: 200px;
+height: 200px;
+left: 60px;
+top: 1856px;
+
+background: #1AFDEF;
+border-radius: 30px;
+}
+
+/* Rectangle 7 */
+#button_top2{
+position: absolute;
+width: 200px;
+height: 200px;
+left: 315px;
+top: 1856px;
+
+background: #1AFDEF;
+border-radius: 30px;
+}
+
+
+/* Rectangle 9 */
+#button_top3{
+position: absolute;
+width: 200px;
+height: 200px;
+left: 663px;
+top: 1856px;
+
+background: #1AFDEF;
+border-radius: 30px;
+}
+
+
+
+/* Rectangle 10 */
+#save1{
+position: absolute;
+width: 229px;
+height: 236px;
+left: 62px;
+top: 2272px;
+
+background: #12AAFF;
+border-radius: 30px;
+}
+
+/* Rectangle 11 */
+#save2{
+position: absolute;
+width: 229px;
+height: 236px;
+left: 344px;
+top: 2273px;
+
+background: #12AAFF;
+border-radius: 30px;
+}
+
+/* 保存 */
+/*
+position: absolute;
+width: 200px;
+height: 117px;
+left: 76px;
+top: 2331px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 100px;
+line-height: 117px;
+display: flex;
+align-items: center;
+
+color: #000000;
+*/
+
+
+/* OK */
+/*
+position: absolute;
+width: 160px;
+height: 141px;
+left: 1114px;
+top: 2288px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 120px;
+line-height: 141px;
+*/
+
+/* identical to box height */
+body{
+display: flex;
+align-items: center;
+
+color: #000000;
+}
