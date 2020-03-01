@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+/* Frame 1 */
+.Frame{
+position : relative;
+width    : 100vw;
+height   : 200vw;
+
+background : #FFFFFF;
+
+}
+
+
+
+/* Rectangle 4 */
+.floor{
+position : absolute;
+width    : 93.2vw;
+height   : 57.2vw;
+left     : 3.4vw;
+top      : 40.4vw;
+
+background : #FFFFFF;
+border     : 0.6vw solid #000000;
+box-sizing : border-box;
+}
+
+/* Rectangle 5 */
+.OK{
+position : absolute;
+width    : 16.8vw;
+height   : 16.8vw;
+left     : 58.4vw;
+top      : 123.3vw;
+
+background    : #FF4466;
+border-radius : 3.6vw;
+}
+
+/* Polygon 1 */
+#move_up{
+position : absolute;
+width    : 0vw;
+height   : 0vw;
+left     : 58.4vw;
+top      : 106.5vw;
+
+
+/*ボタンの形を上向きの三角にした*/
+border-bottom : 11.2vw solid skyblue;
+border-right  : 8.4vw solid transparent;
+border-left   : 8.4vw solid transparent;
+
+}
+
+/* Polygon 2 */
+#move_left{
+position : absolute;
+width    : 0vw;
+height   : 0vw;
+left     : 41.6vw;
+top      : 123.5vw;
+
+/*左向きの三角にした*/
+border-top    : 8.4vw solid transparent;
+border-bottom : 8.4vw solid transparent;
+border-right  : 11.2vw solid skyblue;
+
+}
+
+
+/* Polygon 3 */
+#move_right{
+position : absolute;
+width    : 0vw;
+height   : 0vw;
+left     : 80.7vw;
+top      : 123.5vw;
+
+/*右向きの三角形にした*/
+border-top    : 8.4vw solid transparent;
+border-bottom : 8.4vw solid transparent;
+border-left   : 11.2vw solid skyblue;
+
+
+}
+
+/* Polygon 4 */
+#move_down{
+position : absolute;
+width    : 0vw;
+height   : 0vw;
+left     : 58.4vw;
+top      : 145.8vw;
+
+/*下向きの三角形にした*/
+border-top   : 11.2vw solid skyblue;
+border-right : 8.4vw solid transparent;
+border-left  : 8.4vw solid transparent;
+
+}
+
+/* Rectangle 6 */
+#button_top1{
+position : absolute;
+width    : 11.2vw;
+height   : 11.2vw;
+left     : 3.6vw;
+top      : 103.7vw;
+
+background    : #1AFDEF;
+border-radius : 1.7vw;
+}
+
+/* Rectangle 7 */
+#button_top2{
+position : absolute;
+width    : 11.2vw;
+height   : 11.2vw;
+left     : 17.6vw;
+top      : 103.7vw;
+
+background    : #1AFDEF;
+border-radius : 1.7vw;
+}
+
+
+/* Rectangle 9 */
+#button_top3{
+position : absolute;
+width    : 11.2vw;
+height   : 11.2vw;
+left     : 37.1vw;
+top      : 103.7vw;
+
+background    : #1AFDEF;
+border-radius : 1.7vw;
+}
+
+
+
+/* Rectangle 10 */
+#save1{
+position : absolute;
+width    : 12.8vw;
+height   : 13.2vw;
+left     : 3.5vw;
+top      : 127vw;
+
+background    : #12AAFF;
+border-radius : 1.7vw;
+}
+
+/* Rectangle 11 */
+#save2{
+position : absolute;
+width    : 12.8vw;
+height   : 13.2vw;
+left     : 19.2vw;
+top      : 127vw;
+
+background    : #12AAFF;
+border-radius : 1.7vw;
+}
+
+/* 保存 */
+/*
+position: absolute;
+width: 200px;
+height: 117px;
+left: 76px;
+top: 2331px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 100px;
+line-height: 117px;
+display: flex;
+align-items: center;
+
+color: #000000;
+*/
+
+
+/* OK */
+/*
+position: absolute;
+width: 160px;
+height: 141px;
+left: 1114px;
+top: 2288px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 120px;
+line-height: 141px;
+*/
+
+/* identical to box height */
+body{
+display: flex;
+align-items: center;
+
+color: #000000;
+}
