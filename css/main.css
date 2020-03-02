@@ -3,179 +3,172 @@
 /* Frame 1 */
 .Frame{
 position : relative;
-width    : 1789px;
-height   : 3606px;
+width    : 100vw;
+height   : 200vw;
 
 background : #FFFFFF;
-
 }
-
 
 
 /* Rectangle 4 */
 .floor{
 position : absolute;
-width    : 1667px;
-height   : 1024px;
-left     : 60px;
-top      : 723px;
+width    : 93.2vw;
+height   : 57.2vw;
+left     : 3.4vw;
+top      : 40.4vw;
 
 background : #FFFFFF;
-border     : 10px solid #000000;
+border     : 0.6vw solid #000000;
 box-sizing : border-box;
 }
 
 /* Rectangle 5 */
 .OK{
 position : absolute;
-width    : 300px;
-height   : 300px;
-left     : 1044px;
-top      : 2206px;
+width    : 16.8vw;
+height   : 16.8vw;
+left     : 58.4vw;
+top      : 123.3vw;
 
 background    : #FF4466;
-border-radius : 60px;
+border-radius : 3.6vw;
 }
 
 /* Polygon 1 */
 #move_up{
 position : absolute;
-width    : 0px;
-height   : 0px;
-left     : 1044px;
-top      : 1906px;
+width    : 0vw;
+height   : 0vw;
+left     : 58.4vw;
+top      : 106.5vw;
 
 
 /*ボタンの形を上向きの三角にした*/
-border-bottom : 200px solid skyblue;
-border-right  : 150px solid transparent;
-border-left   : 150px solid transparent;
-
+border-bottom : 11.2vw solid skyblue;
+border-right  : 8.4vw solid transparent;
+border-left   : 8.4vw solid transparent;
 }
 
 /* Polygon 2 */
 #move_left{
 position : absolute;
-width    : 0px;
-height   : 0px;
-left     : 744px;
-top      : 2209px;
+width    : 0vw;
+height   : 0vw;
+left     : 41.6vw;
+top      : 123.5vw;
 
 /*左向きの三角にした*/
-border-top    : 150px solid transparent;
-border-bottom : 150px solid transparent;
-border-right  : 200px solid skyblue;
-
+border-top    : 8.4vw solid transparent;
+border-bottom : 8.4vw solid transparent;
+border-right  : 11.2vw solid skyblue;
 }
 
 
 /* Polygon 3 */
 #move_right{
 position : absolute;
-width    : 0px;
-height   : 0px;
-left     : 1444px;
-top      : 2209px;
+width    : 0vw;
+height   : 0vw;
+left     : 80.7vw;
+top      : 123.5vw;
 
 /*右向きの三角形にした*/
-border-top    : 150px solid transparent;
-border-bottom : 150px solid transparent;
-border-left   : 200px solid skyblue;
-
-
+border-top    : 8.4vw solid transparent;
+border-bottom : 8.4vw solid transparent;
+border-left   : 11.2vw solid skyblue;
 }
 
 /* Polygon 4 */
 #move_down{
 position : absolute;
-width    : 0px;
-height   : 0px;
-left     : 1044px;
-top      : 2609px;
+width    : 0vw;
+height   : 0vw;
+left     : 58.4vw;
+top      : 145.8vw;
 
 /*下向きの三角形にした*/
-border-top   : 200px solid skyblue;
-border-right : 150px solid transparent;
-border-left  : 150px solid transparent;
-
+border-top   : 11.2vw solid skyblue;
+border-right : 8.4vw solid transparent;
+border-left  : 8.4vw solid transparent;
 }
+
 
 /* Rectangle 6 */
 #button_top1{
 position : absolute;
-width    : 200px;
-height   : 200px;
-left     : 60px;
-top      : 1856px;
+width    : 11.2vw;
+height   : 11.2vw;
+left     : 3.6vw;
+top      : 103.7vw;
 
 background    : #1AFDEF;
-border-radius : 30px;
+border-radius : 1.7vw;
 }
 
 /* Rectangle 7 */
 #button_top2{
 position : absolute;
-width    : 200px;
-height   : 200px;
-left     : 315px;
-top      : 1856px;
+width    : 11.2vw;
+height   : 11.2vw;
+left     : 17.6vw;
+top      : 103.7vw;
 
 background    : #1AFDEF;
-border-radius : 30px;
+border-radius : 1.7vw;
 }
 
 
 /* Rectangle 9 */
 #button_top3{
 position : absolute;
-width    : 200px;
-height   : 200px;
-left     : 663px;
-top      : 1856px;
+width    : 11.2vw;
+height   : 11.2vw;
+left     : 37.1vw;
+top      : 103.7vw;
 
 background    : #1AFDEF;
-border-radius : 30px;
+border-radius : 1.7vw;
 }
-
 
 
 /* Rectangle 10 */
 #save1{
 position : absolute;
-width    : 229px;
-height   : 236px;
-left     : 62px;
-top      : 2272px;
+width    : 12.8vw;
+height   : 13.2vw;
+left     : 3.5vw;
+top      : 127vw;
 
 background    : #12AAFF;
-border-radius : 30px;
+border-radius : 1.7vw;
 }
 
 /* Rectangle 11 */
 #save2{
 position : absolute;
-width    : 229px;
-height   : 236px;
-left     : 344px;
-top      : 2273px;
+width    : 12.8vw;
+height   : 13.2vw;
+left     : 19.2vw;
+top      : 127vw;
 
 background    : #12AAFF;
-border-radius : 30px;
+border-radius : 1.7vw;
 }
 
 /* 保存 */
 /*
 position: absolute;
-width: 200px;
-height: 117px;
-left: 76px;
-top: 2331px;
+width: 11.2vw;
+height: 6.5vw;
+left: 4.2vw;
+top: 130.3vw;
 
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-font-size: 100px;
-line-height: 117px;
+font-size: 5.6vw;
+line-height: 6.5vw;
 display: flex;
 align-items: center;
 
@@ -186,16 +179,16 @@ color: #000000;
 /* OK */
 /*
 position: absolute;
-width: 160px;
-height: 141px;
-left: 1114px;
-top: 2288px;
+width: 8.9vw;
+height: 7.9vw;
+left: 62.3vw;
+top: 127.9vw;
 
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 120px;
-line-height: 141px;
+font-size: 6.7vw;
+line-height: 7.9vw;
 */
 
 /* identical to box height */
